@@ -1,5 +1,8 @@
 import discord
 from discord.ext import commands
+intents = Intents.default()
+intents.members = True
+client = discord.Client(intents=intents)
 
 TOKEN = 'YOUR_TOKEN_HERE'
 
